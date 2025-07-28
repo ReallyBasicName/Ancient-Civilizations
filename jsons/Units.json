@@ -91,18 +91,36 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
-		{
-		"name": "Slave Hunter",
-		"unitType": "Scout",
-		"replaces": "Scout",
+	{
+		"name": "Beden",
+		"unitType": "Melee Water",
+		"replaces": "Trireme",
 		"uniqueTo": "Macrobia",
-		"movement": 3,
-		"strength": 6,
-		"cost": 40,
-		"obsoleteTech": "Scientific Theory",
-		"uniques": ["[1] additional attacks per turn","May upgrade to [Composite Bowman] through ruins-like effects","May capture killed [Military] units"],
-		"promotions": ["Ignore terrain cost"],
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles", 
+			"Never appears as a Barbarian unit",
+			"[+33]% Strength <within [2] tiles of a [Fishing Boats]>"
+		],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Gold-Chained Prisoner",
+		"unitType": "Civilian",
+		"replaces": "Worker",
+		"uniqueTo": "Macrobia",
+		"movement": 2,
+		"uniques": [
+			"Uncapturable",
+			"Can build [Land] improvements on tiles", 
+			"Automation is a primary action"
+		],
+		"cost": 70
 	},
 		{
 		"name": "Serpent Priest",

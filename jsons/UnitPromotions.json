@@ -5,7 +5,9 @@
 	},
     {
         "name": "Steppe Hunter",
-        "uniques": ["Can receive bonus movement promotion"],
+        "uniques": [
+			"Comment [Can receive bonus movement promotion]"
+		],
 	},
     {
         "name": "Horseback Rider",
@@ -15,10 +17,19 @@
 	},
     {
         "name": "Pyrrhic Victory",
-        "uniques": ["[+25]% Strength <vs cities> <when attacking>","[-25]% Strength <vs cities> <when defending>"],
+        "uniques": [
+			"[+25]% Strength <vs cities> <when attacking>",
+			"[-25]% Strength <vs cities> <when defending>"
+		],
 	},
     {
         "name": "Favorable Winds",
         "uniques": ["Can move after attacking"]
     },	
+    {
+        "name": "Golden Shackles",
+        "uniques": [
+			"[1] free [Gold-Chained Prisoner] units appear <upon defeating a [{Military} {Land}] unit> <with [10]% chance>"
+		],
+	},
 ]
