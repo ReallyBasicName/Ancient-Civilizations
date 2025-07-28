@@ -305,7 +305,7 @@
 		"uniqueName": "African Treasures",
 		"uniques": [
 			"Comment [All cities provide 1 [Terracotta]]",
-			"Gain a free [Free Terracotta] [in all cities]",
+			"Gain a free [Free Terracotta] [in all cities] <hidden from users>",
 			"[+1 Science] from every [Iron]"
 		],
 		"cities": ["Nok","Jos","Ife","Samun","Kagara","Janjala","Kwoi","Jere","Dokku","Bokkos","Riyom","Ogbabu","Pangajere","Taruga","Kamrun","Vom","Chakwama","Dogo-Dogo","Jagwa"]
