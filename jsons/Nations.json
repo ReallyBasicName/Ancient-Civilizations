@@ -29,7 +29,6 @@
 		"outerColor": [43, 35, 82],
 		"innerColor": [189, 145, 158],
 		"uniqueName": "Cradle of Civilization",
-		"uniqueText": "All land units move twice as fast on tiles next to rivers. +2 [Science] in Capital",
 		"uniques": [
 			"[+2 Science] [in capital]",
 			"Comment [Double movement in [River] for Land units]",
