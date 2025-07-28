@@ -6,14 +6,14 @@
 	"uniques": ["Provides [1] [Terracotta]","Will not be displayed in Civilopedia","Unsellable","Destroyed when the city is captured"],
 	},
 		{
-        "name": "Myrrh",
+        "name": "Incense to Myrrh",
         "uniqueTo": "Himyar",
         "cost": 1,
 	 "cannotBeBuiltWith": "Frankincense",
 	"uniques": ["Consumes [1] [Incense]","Provides [1] [Myrrh]","Unsellable","Will not be displayed in Civilopedia","Only available <with [Incense]>","Destroyed when the city is captured"],
 	},
 			{
-        "name": "Frankincense",
+        "name": "Incense to Frankincense",
         "uniqueTo": "Himyar",
         "cost": 1,
 	 "cannotBeBuiltWith": "Myrrh",
@@ -29,7 +29,10 @@
 		"specialistSlots": {"Scientist": 1},
 		"cost":120,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Faith] from [River] tiles [in this city]","1 Scientist slot"],
+		"uniques": [
+			"Comment [1 Scientist Slot]",
+			"[+1 Faith] from [River] tiles [in this city]"
+		],
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Construction"
 	},
@@ -55,7 +58,10 @@
 		"maintenance": 4,
 		"culture": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities","New [Military] units start with [10] Experience [in this city]"],
+		"uniques": [
+			"Removes extra unhappiness from annexed cities",
+			"New [Military] units start with [10] XP [in this city]"
+		],
 		"requiredTech": "Construction"
 	},
 	{
@@ -67,17 +73,6 @@
 		"requiredTech": "Pottery",
 		"hurryCostModifier": 40,
 		"uniques": ["[+2 Faith] from [Mountain] tiles [in this city]"]
-	},
-		{
-		"name": "Slave Market",
-		"replaces": "Market",
-		"uniqueTo": "Macrobia",
-		"specialistSlots": {"Merchant": 1},
-		"hurryCostModifier": 25,
-		"gold": 4,
-		"percentStatBonus": {"gold": 25},
-		"uniques": ["Free [Worker] appears"],
-		"requiredTech": "Currency"
 	},
 	    {
 		"name": "Smeltery",

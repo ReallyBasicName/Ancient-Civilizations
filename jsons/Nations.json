@@ -30,7 +30,11 @@
 		"innerColor": [189, 145, 158],
 		"uniqueName": "Cradle of Civilization",
 		"uniqueText": "All land units move twice as fast on tiles next to rivers. +2 [Science] in Capital",
-		"uniques": ["[+2 Science] [in capital]","[Land] units gain the [Cradle of Civilizations] promotion"],
+		"uniques": [
+			"[+2 Science] [in capital]",
+			"Comment [Double movement in [River] for Land units]",
+			"[Land] units gain the [Cradle of Civilizations] promotion <hidden from users>"
+		],
 		"cities": ["Uruk","Eridu","Kish","Lagash","Nibru","Ur","Bad-Tibira","Zimbir","Shuruppak","Umma",
 			"Larsa","Isin","Girsu","Adab","Larak","Abu Salabikh","Akshak","Hamazi","Nina","Kutha",
 			"Marad","Zabalam","Kisurra","Pazurish-Dagan","Kutallu","Kesh","Apisada","Kisiga","Enegi","Ki-an",
@@ -63,10 +67,13 @@
 		"afterPeace": "Praise the Lord as he gives peace!",
 		"tradeRequest": "I present you this trade offer.",
 
-		"outerColor": [	255, 255, 204],
-		"innerColor": [	51, 153, 255],
+		"outerColor": [255, 255, 206],
+		"innerColor": [49, 146, 243],
 		"uniqueName": "Promised Land",
-		"uniques": ["[+1 Food, +1 Faith] from every [Pasture]","[+1 Faith] per [4] population [in all cities]"],
+		"uniques": [
+			"[+1 Food, +1 Faith] from every [Pasture]",
+			"[+1 Faith] per [4] population [in all cities]"
+		],
 		"cities": ["Jerusalem","Hebron","Gaza","Jericho","Bethlehem","Nazareth","Meggido","Beer-Sheba","Judah",
 			"Hazor","Michmash","Caesarea","Emmaus","Tirzah","Gilgal","Joppa","Shiloh","Ashdod","Ashkelton",
 			"Samara","Gezer","Gibeon","Tamar","Geba","Gath","Avaris","Dan","Jebesh-Gilead"]
@@ -101,7 +108,11 @@
 		"outerColor": [	102, 51, 153],
 		"innerColor": [	154, 221, 255],
 		"uniqueName": "Mediterranean Seafarers",
-		"uniques": ["Starts with [Sailing]","[+1 Gold] from every [Fishing Boats]","[+50]% Production when constructing [Work Boats] units [in all cities]"],
+		"uniques": [
+			"Starts with [Sailing]",
+			"[+1 Gold] from every [Fishing Boats]",
+			"[+50]% Production when constructing [Work Boats] units [in all cities]"
+		],
 		"cities": ["Tyre","Sidon","Byblos","Sarepta","Berytos","Carthage","Baalbek","Zili","Akko","Dor","Arados",
 			"Quart Hadasht","Leptis","Utica","Karalis","Oia","Sabratha","Hadrumentum","Icosium","Iol","Thapsos",
 			"Melita","Kossyra","Gadir","Tartessos","Tharros","Magador","Igilgili","Cirta","Ebusos"]
@@ -136,8 +147,11 @@
 		"outerColor": [	172, 142, 97],
 		"innerColor": [	71, 6, 23],
 		"uniqueName": "Iron Pioneers",
-		"uniqueText": "Iron and Horses tiles yield additional 1 [Gold] and 1 [Production]. Receive +10% [Production] bonus when constructing military units.",
-		"uniques": ["[+10]% Production when constructing [Military] units [in all cities]","[+1 Gold] from every [Horses]","[+1 Production] from every [Horses]","[+1 Gold] from every [Iron]","[+1 Production] from every [Iron]"],
+		"uniques": [
+			"[+1 Gold, +1 Production] from every [Iron]",
+			"[+1 Gold, +1 Production] from every [Horses]",
+			"[+10]% Production when constructing [Military] units [in all cities]"
+		],
 		"cities": ["Hattusa","Nesa","Kussara","Samuha","Tarhuntassa","Kadesh","Lusna","Alalah","Halab","Tunip","Kadesh",
 			"Zalpa","Hakpish","Nerik","Shallapsa","Arinna","Adaniya","Apasha","Waliwanda","Tapikka","Tuwanuwa",
 			"Ura","Milid","Urshu","Arwada","Sanahuitta","Dimashku","Millawanda","Gaziura","Ugarit"]
@@ -169,22 +183,26 @@
 		"afterPeace": "We shall now pray for the better days!",
 		"tradeRequest": "I bring you an excellent offer!",
 
-		"outerColor": [	128, 9, 46],
-		"innerColor": [	204, 170, 118],
+		"outerColor": [128, 9, 46],
+		"innerColor": [204, 170, 118],
 		"uniqueName": "Sacred Mountains", 
-		"uniques": ["Double quantity of [Horses] produced","[Mounted] units gain the [Ignore terrain cost] promotion","[+1 Food, +1 Culture, +1 Production] from every [Mountain]"],
+		"uniques": [
+			"[+100]% [Horses] resource production",
+			"[Mounted] units gain the [Ignore terrain cost] promotion",
+			"[+1 Food, +1 Culture, +1 Production] from every [Mountain]"
+		],
 		"cities": ["Yerevan","Tigranakert","Artashat","Yervandashat","Armavir","Gyumri","Vanadzor","Abovyan","Kapan","Ararat","Gavar",
 		"Hrazdan","Ijevan","Goris","Ashtarak","Masis"]
 	}
 			{
 		"name": "Macrobia",
-		"leaderName": "Sayid",
+		"leaderName": "Arawelo",
 		"adjective": ["Macrobian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 		
 		"declaringWar": "You have had your chance, now prepare for war!",
 		"attacked": "You DARE declare war on us? We shall make you suffer!",
@@ -202,14 +220,22 @@
 		
 		"afterPeace": "We shall now pray for the better, I mean more profitable, days!",
 		"tradeRequest": "I bring you an excellent offer!",
-
-		"outerColor": [	84, 215, 247],
-		"innerColor": [	255, 255, 255],
+		
+		"outerColor": [2, 75, 128],
+		"innerColor": [201, 144, 78],
 		"uniqueName": "Shackles of Gold",
-		"uniqueText": "Earns [Gold] for killing enemy land units", 
-		"uniques": ["Earn [75]% of killed [Land] unit's [Strength] as [Gold]"],
-		"cities": ["Mogadishu","Avalite","Botiala","Gondal","Toniki","Salweyn","Miandi","Sarapion","Hannassa","Bulhar",
-		"Essina","Famo","Mosylon","Opone","Nikon","Mundus"]
+		"uniques": [
+			"[+1 Gold] from every [Spices]",
+			"[+1 Culture] from every [Gold Ore]",
+			"Comment [Gain 1 free [Gold-Chained Prisoner] unit upon defeating a [{Military} {Land}] unit with [10]% chance]",
+			"[Land] units gain the [Golden Shackles] promotion <hidden from users>"
+		],
+		"cities": [
+			"Mosylon", "Opone", "Aromata", "Avalites", "Damo", 
+			"Malao", "Botiala", "Nikon", "Mundus", "Salweyn", 
+			"Essina", "Sarapion", "Tabae", "Gondal", "Hannassa", 
+			"Bulhar", "Macajilayn", "Miandi", "Toniki"
+		]
 	},
 		{
 		"name": "The Olmec",
@@ -238,18 +264,20 @@
 		"afterPeace": "What such bloodhirsty beast might want?",
 		"tradeRequest": "What do you think?",
 
-		"outerColor": [	91, 176, 156],
-		"innerColor": [ 40, 94, 68],
+		"outerColor": [99, 179, 160],
+		"innerColor": [38, 90, 65],
 		"uniqueName": "Feathered Serpent",
-		"uniqueText": "May buy National Wonders with [Faith].",
-		"uniques": ["May buy [National Wonder] buildings with [Faith] for [1] times their normal Production cost"],
+		"uniqueText": "May buy National Wonders with [Faith]",
+		"uniques": [
+			"May buy [National Wonder] buildings with [Faith] for [1] times their normal Production cost"
+		],
 		"cities": ["La Venta","San Lorenzo","Tres Zapotes","Izapa","Tzapotl","Tonala","Texpa","Tlapocoya","Xoc","Coatztitlan","Izacoya"]
 	},
 			{
 		"name": "Nok",
 		"leaderName": "Olori",
 		"adjective": ["Nok"],
-		"startBias": ["Jungle","Iron"],
+		"startBias": ["Jungle"], //"Iron",
 		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": "Welcome, King Olori, leader of the Nok culture, architect of the cradle of North African civilization! For millennia, your people endured a hunter-gather existance, isolated from other peoples. It was not until the turn of the first millennium BC that your people discovered iron from the north, enabling them to craft their dominion of what is northern Nigeria today: pottery, architecture and artist expression thrived. But it was not to last, as overpopulation, coupled with rapid climate shifts, spelled the end of your culture. Your people persisted, however, forming the formidable Benin, Nri, Yoruba and Hausa kingdoms and ethnic groups lasting into the modern day.",
@@ -275,19 +303,22 @@
 		"outerColor": [	189, 182, 125],
 		"innerColor": [	82, 70, 55],
 		"uniqueName": "African Treasures",
-		"uniqueText": "All cities provide 1 copy of [Terracotta] luxury resource. +1 [Science] from every Iron.",
-		"uniques": ["Gain a free [Free Terracotta] [in all cities]","[+1 Science] from every [Iron]"],
+		"uniques": [
+			"Comment [All cities provide 1 [Terracotta]]",
+			"Gain a free [Free Terracotta] [in all cities]",
+			"[+1 Science] from every [Iron]"
+		],
 		"cities": ["Nok","Jos","Ife","Samun","Kagara","Janjala","Kwoi","Jere","Dokku","Bokkos","Riyom","Ogbabu","Pangajere","Taruga","Kamrun","Vom","Chakwama","Dogo-Dogo","Jagwa"]
 	},
 			{
 		"name": "Himyar",
 		"leaderName": "Charibael",
 		"adjective": ["Himyarite"],
-		"startBias": ["Desert","Incense"],
+		"startBias": ["Desert"], //"Incense",
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 		
 		"declaringWar": "You are an obstacle and you shall be removed!",
 		"attacked": "Disappointing...",
@@ -309,7 +340,11 @@
 		"outerColor": [	31, 31, 31],
 		"innerColor": [	247, 198, 0],
 		"uniqueName": "Desert Paradise",
-		"uniques": ["Double quantity of [Incense] produced","May convert Incense to Myrrh or Frankincense luxury resources","[+15]% Strength <within [1] tiles of a [Desert]>"],
+		"uniques": [
+			"[+100]% [Incense] resource production",
+			"Comment [May convert [Incense] to [Myrrh] or [Frankincense]]",
+			"[+15]% Strength <for [Military] units> <within [1] tiles of a [Desert]>"
+		],
 		"cities": ["Zafar","Sana'a","Ma'rib","Najran","Mocha","Haram","Haywan","Mukhwan","Yabrin","Shabwa","Wa'lan","Libna","Nashaq","Timna","Sirwah","Quarnawu","Kaminahu","Baraqish"]
 	},
 				{
@@ -318,8 +353,8 @@
 		"adjective": ["Epirote"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "TBD",
-		"startIntroPart2": "TBD",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 		
 		"declaringWar": "There can be only one king. Prepare for battle!",
 		"attacked": "I think my emissary must have been late, I already declared war on you!",
@@ -341,8 +376,13 @@
 		"innerColor": [	232, 170, 158],
 		"outerColor": [	94, 50, 0],
 		"uniqueName": "Pyrrhic Victory",
-		"uniqueText": "Can't train Settlers. All military units have + 25% more strength when attacking cities, but suffer -25% penalty when defending against cities. +25% [Production] when constructing military units in capital. Gains a free [Great General] upon researching Bronze Working and Steel",
-		"uniques": ["Cannot build [Settler] units", "[Military] units gain the [Pyrrhic Victory] promotion","[+25]% Production when constructing [Military] units [in capital]","Free [Great General] appears <upon discovering [Bronze Working] technology>","Free [Great General] appears <upon discovering [Steel] technology>"],
+		"uniques": [
+			"Cannot build [Settler] units", 
+			"[Military] units gain the [Pyrrhic Victory] promotion",
+			"[+25]% Production when constructing [Military] units [in capital]",
+			"Free [Great General] appears <upon discovering [Bronze Working] technology>",
+			"Free [Great General] appears <upon discovering [Steel] technology>"
+		],
 		"cities": ["Ambracia","Phoenike","Passaron"]
 	},
 					{
@@ -375,7 +415,10 @@
 		"outerColor": [	184, 154, 55],
 		"innerColor": [	84, 9, 9],
 		"uniqueName": "People of the Steppe",
-		"uniques": ["[+1 Food] from every [Horses]","Starts with [Archery]"],
+		"uniques": [
+			"[+1 Food] from every [Horses]",
+			"Starts with [Archery]"
+		],
 		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
 	},
 ]
