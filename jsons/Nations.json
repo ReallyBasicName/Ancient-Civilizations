@@ -32,6 +32,7 @@
 		"uniqueText": "All land units move twice as fast on tiles next to rivers. +2 [Science] in Capital",
 		"uniques": [
 			"[+2 Science] [in capital]",
+			"Comment [Double movement in [River] for Land units]",
 			"[Land] units gain the [Cradle of Civilizations] promotion <hidden from users>"
 		],
 		"cities": ["Uruk","Eridu","Kish","Lagash","Nibru","Ur","Bad-Tibira","Zimbir","Shuruppak","Umma",
@@ -110,7 +111,8 @@
 		"uniques": [
 			"Starts with [Sailing]",
 			"[+1 Gold] from every [Fishing Boats]",
-			"[+50]% Production when constructing [Work Boats] units [in all cities]"],
+			"[+50]% Production when constructing [Work Boats] units [in all cities]"
+		],
 		"cities": ["Tyre","Sidon","Byblos","Sarepta","Berytos","Carthage","Baalbek","Zili","Akko","Dor","Arados",
 			"Quart Hadasht","Leptis","Utica","Karalis","Oia","Sabratha","Hadrumentum","Icosium","Iol","Thapsos",
 			"Melita","Kossyra","Gadir","Tartessos","Tharros","Magador","Igilgili","Cirta","Ebusos"]
@@ -225,7 +227,7 @@
 		"uniques": [
 			"[+1 Gold] from every [Spices]",
 			"[+1 Culture] from every [Gold Ore]",
-			"Comment [Gain 1 free [Gold-Chained Prisoner] unit upon defeating a [{Military} {Land}] unit with [10]% chance]"
+			"Comment [Gain 1 free [Gold-Chained Prisoner] unit upon defeating a [{Military} {Land}] unit with [10]% chance]",
 			"[Land] units gain the [Golden Shackles] promotion <hidden from users>"
 		],
 		"cities": [
@@ -275,7 +277,7 @@
 		"name": "Nok",
 		"leaderName": "Olori",
 		"adjective": ["Nok"],
-		"startBias": ["Jungle","Iron"],
+		"startBias": ["Jungle"], //"Iron",
 		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": "Welcome, King Olori, leader of the Nok culture, architect of the cradle of North African civilization! For millennia, your people endured a hunter-gather existance, isolated from other peoples. It was not until the turn of the first millennium BC that your people discovered iron from the north, enabling them to craft their dominion of what is northern Nigeria today: pottery, architecture and artist expression thrived. But it was not to last, as overpopulation, coupled with rapid climate shifts, spelled the end of your culture. Your people persisted, however, forming the formidable Benin, Nri, Yoruba and Hausa kingdoms and ethnic groups lasting into the modern day.",
@@ -312,7 +314,7 @@
 		"name": "Himyar",
 		"leaderName": "Charibael",
 		"adjective": ["Himyarite"],
-		"startBias": ["Desert"], //,"Incense"
+		"startBias": ["Desert"], //"Incense",
 		"preferredVictoryType": "Scientific",
 		
 		"startIntroPart1": "",
